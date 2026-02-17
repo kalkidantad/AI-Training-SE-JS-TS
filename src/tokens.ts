@@ -1,6 +1,6 @@
 export class OAuth2Token {
-  accessToken: string;
-  expiresAt: number; // unix seconds
+  public accessToken: string;
+  public expiresAt: number; // unix seconds
 
   constructor(accessToken: string, expiresAt: number) {
     this.accessToken = accessToken;
